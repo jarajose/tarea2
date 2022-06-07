@@ -1,0 +1,137 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 5, 2022, 4:39:06 PM
+    Author     : darod
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero-banner {
+    height: 86vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+iframe {
+   filter: brightness(100%);
+}
+
+.video-banner {
+    padding: 10% 30%;
+}
+
+nav {
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 80px;
+    
+}
+
+footer{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.redes{
+    cursor: pointer;
+}
+.redes:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    cursor:none;
+}
+
+.logo-1{
+    color: white;
+}
+
+.logo-1:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+.logo-2{
+    color: white;
+}
+
+.logo-2:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+.logo-3{
+    color: white;
+}
+
+.logo-3:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+.logo-4{
+    color: white;
+}
+
+.logo-4:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+.logo-5{
+    color: white;
+}
+
+.logo-5:hover{
+    color: midnightblue;
+    transition: .3s;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+button{
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}

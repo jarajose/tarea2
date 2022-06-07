@@ -1,0 +1,175 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 5, 2022, 11:44:33 PM
+    Author     : darod
+*/
+
+.caja-formulario{
+    margin: 2em 0;
+    padding: 1em 2 em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    min-width: 200px;
+}
+
+input[type="submit"] {
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+}
+
+.frm-frm{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.frm-contacto{
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.frm-container{
+    margin: 10% 30%;
+    text-align: center;
+}
+
+
+
+/*.logo-banner{
+    background-image: url('../images/logoCR.png');
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}*/
+
+nav {
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 80px;
+    
+}
+
+footer{
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.redes{
+    cursor: pointer;
+}
+.redes:hover{
+    transform: scale(1.2);
+}
+
+.logo{
+    cursor:none;
+}
+
+.logo-1{
+    color: white;
+}
+
+.logo-1:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+.logo-2{
+    color: white;
+}
+
+.logo-2:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+.logo-3{
+    color: white;
+}
+
+.logo-3:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+.logo-4{
+    color: white;
+}
+
+.logo-4:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+.logo-5{
+    color: white;
+}
+
+.logo-5:hover{
+    color: midnightblue;
+    transition: .3s;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+button{
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.body-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0;
+}
